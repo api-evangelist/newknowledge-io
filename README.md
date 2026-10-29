@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Yonder is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by techstars) and added to the network as a stub for full-pipeline profiling.
-- https://newknowledge.io/
+Yonder, formerly named New Knowledge and Popily, is a company from Austin, Texas, that specializes in disinformation research. It is known for supporting the Senate Select Committee on Intelligence's investigation of Russian interference in the 2016 US presidential election and was involved in a disinformation operation during the 2017 US Senate special election in Alabama. Its CEO and researchers have provided expert commentary to major media on topics such as 5G and COVID-19 misinformation.
+
+**Areas:** Company · Disinformation · Research · AI · Austin
+
+## Yonder on APIs.io
+
+Everything profiled for Yonder is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/newknowledge-io/](https://apis.io/providers/newknowledge-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [YonderAPI](https://apis.io/apis/newknowledge-io/yonderapi/) — YonderAPI provides access to text and image analysis services for building pipelines, as described in the YonderAPI v1 Reference.
+- [Yonder API](https://apis.io/apis/newknowledge-io/newknowledge-io-api/) — Yonder API as documented publicly: 80 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Get10TextcollectionDocumentclusteringResponse](https://apis.io/schemas/newknowledge-io/newknowledge-io-get10-textcollection-documentclustering-response/)
+- [Get10TextcollectionEntitygraphResponse](https://apis.io/schemas/newknowledge-io/newknowledge-io-get10-textcollection-entitygraph-response/)
+- [Get10UserUserinfoResponse](https://apis.io/schemas/newknowledge-io/newknowledge-io-get10-user-userinfo-response/)
+- [Post10ImageFaceanalysisFromimageResponse](https://apis.io/schemas/newknowledge-io/newknowledge-io-post10-image-faceanalysis-fromimage-response/)
+- [Post10TextcollectionDocumentclusteringResponse](https://apis.io/schemas/newknowledge-io/newknowledge-io-post10-textcollection-documentclustering-response/)
+- [Post10TextcollectionEntitygraphResponse](https://apis.io/schemas/newknowledge-io/newknowledge-io-post10-textcollection-entitygraph-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Newknowledge Io Context](https://apis.io/jsonld/newknowledge-io/newknowledge-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Yonder API Rules](https://apis.io/rules/newknowledge-io/newknowledge-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Newknowledge Io Authentication](https://apis.io/security/newknowledge-io/newknowledge-io-authentication/)
+- [Newknowledge Io Domain Security](https://apis.io/security/newknowledge-io/newknowledge-io-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Newknowledge Io Scopes](https://apis.io/scopes/newknowledge-io/newknowledge-io-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://yonderlabs.com/)
+- [Documentation](https://api-v2-docs.yonderlabs.com/)
+- [Privacy policy](https://yonderlabs.com/privacy.html)
+- [GitHub](https://github.com/yonderlabs)
+
+## API Evangelist rating
+
+**Kin Score 35.6** — thin · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.6 |
+| Contract governance | 70.9 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 21.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/newknowledge-io/](https://apis.io/providers/newknowledge-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Yonder: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/newknowledge-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
